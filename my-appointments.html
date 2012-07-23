@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" /> 
+<title>App Test</title> 
+<script src="http://code.jquery.com/jquery-latest.js"></script> 
+<script src="http://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js" content="application/json"></script> 
+<script src="app.js" type="text/javascript"; charset="UTF-8"></script> 
 </head>
 <body>
 	<div id="navigation" data-id="navigation"></div>
@@ -15,7 +19,11 @@
 		<div class="content-scroll" data-role="content">
 			<section id="main">
 				<h1>This is the personal appointments page</h1>
-				<p>We do whatever here</p>
+			<a href="#" id="getdata-button">Get Appointments details</a> 
+			<div data-role="content">
+         <ul id="appointmentList" data-role="listview" data-filter="true"></ul>
+                  </div>		
+
 			</section>
 			<footer>
 				Copyright &copy; 2012. All Rights Reserved.
