@@ -17,7 +17,7 @@ function handleOpenURL(url)
 }
 */
 $(document).ready(function(){ 
-$('#getdata-button').live('click', function(){
+//$('#getdata-button').live('click', function(){
 //alert("Clicked"); 
 $.ajax({
 
@@ -41,7 +41,7 @@ $.ajax({
                   //location.reload();
         });
 
- });
+ //});
 var showmore = false;
 $('.desc').live("click",function() {
 //alert("Hi");
