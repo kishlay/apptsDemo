@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Informulate Mobile Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/jquery.mobile-1.1.1.min.css" type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="css/themes/jqmfb.min.css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8"/>
+    <link rel="stylesheet" href="css/jqm.slidemenu.css" />
+</head>
+<body>
+    <div id="slidemenu" data-position="fixed" data-tap-toggle="false">
+        <div id="profile">
+            <img src="img/tegan.jpg">
+
+            <div class="profile_info"><strong>Tegan Snyder</strong><br>
+                <small>Web &amp; Mobile Developer</small>
+            </div>
+        </div>
+        <h3>MENU</h3>
+        <ul>
+            <li><a href="index.html" rel="external"><img src="img/smico3.png">Activity</a></li>
+            <li><a href="my-account.html" rel="external"><img src="img/smico5.png">My Account</a></li>
+            <li><a href="my-appointments.html" rel="external"><img src="img/smico3.png">My Appointments</a></li>
+            <li><a href="index.html" rel="external"><img src="img/smico6.png">Settings</a></li>
+            <li><a href="index.html" rel="external"><img src="img/smico4.png">Help</a></li>
+        </ul>
+        <h3>SOMETHING</h3>
+        <ul>
+            <li><a href="index.html"><img src="img/smico3.png">Activity</a></li>
+            <li><a href="index.html"><img src="img/smico5.png">Invite Friends</a></li>
+            <li><a href="index.html"><img src="img/smico6.png">Settings</a></li>
+            <li><a href="index.html"><img src="img/smico4.png">Help</a></li>
+            <li><a href="index.html"><img src="img/smico3.png">Activity</a></li>
+            <li><a href="index.html"><img src="img/smico5.png">Invite Friends</a></li>
+            <li><a href="index.html"><img src="img/smico6.png">Settings</a></li>
+            <li><a href="index.html"><img src="img/smico4.png">Help</a></li>
+            <li><a href="index.html"><img src="img/smico3.png">Activity</a></li>
+            <li><a href="index.html"><img src="img/smico5.png">Invite Friends</a></li>
+            <li><a href="index.html"><img src="img/smico6.png">Settings</a></li>
+            <li><a href="index.html"><img src="img/smico4.png">Help</a></li>
+        </ul>
+    </div>
+    <section class="page" data-role="page" id="index">
+        <header class="header" data-role="header" data-position="fixed" data-id="header" data-tap-toggle="false">
+            <a class="navigation" href="#" data-slidemenu="#slidemenu" data-slideopen="false" data-icon="smico" data-corners="false" data-iconpos="notext">Menu</a>
+            <h1>My Title</h1>
+        </header>
+        <section data-role="content">
+            <h1>This is the index page</h1>
+
+            <p>We do whatever here</p>
+            <ul data-role="listview">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="my-account.html" title="My Account">My Account</a></li>
+                <li><a href="my-appointments.html" title="My Appointments">My Appointments</a></li>
+            </ul>
+        </section>
+        <footer>
+            Footer
+        </footer>
+    </section>
+    <script type="text/javascript" charset="utf-8" src="js/vendors/cordova-2.0.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/vendors/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/vendors/jsrender.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/vendors/jquery.animate-enhanced.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/vendors/jqm.slidemenu.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/vendors/heartcode-canvasloader-min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/application/app.js"></script>
+    <!-- Per the documentation located on http://jquerymobile.com/demos/1.1.1/docs/api/globalconfig.html load jQuery Mobile last -->
+    <script type="text/javascript" charset="utf-8" src="js/vendors/jquery.mobile-1.1.1.min.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
+</body>
+</html>
