@@ -1,0 +1,17 @@
+.loading {
+	height: 55px;
+}
+#appointmentList img {
+    margin: 5px;
+    border: 3px solid #ccc;
+    height: 80px;
+    width: 80px;
+}
+.desc {
+    height: 25px;
+    overflow: hidden;
+}
+#canvasLoader {
+    width: 25px;
+    margin: 0 auto;
+}
